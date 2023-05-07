@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  COOKIE: ${{ secrets.COOKIE }}
+  ACCESSTOKEN: ${{ secrets.ACCESSTOKEN }}
   WEBHOOK_FEISHU: ${{ secrets.WEBHOOK_FEISHU }}
 
 jobs:
